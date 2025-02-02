@@ -14,16 +14,14 @@ Results: This project shows how fuzzy systems can provide more adaptive and flex
 2. Fuzzy logic method
 
 ## How to Run
-1. Clone this repository to your computer.
-2. Make sure you have Python installed on your system.
-3. Install the required libraries: numpy and matplotlib
-4. When the code is run, the following outputs will be displayed:
-    1. System Introduction: A brief explanation of the purpose of the fuzzy system.
-    2. Input Criteria: Prompts the user to enter values for the following criteria.
-        1. Budget
-        2. Duration
-        3. Business Impact
-    3. Evaluation Process: Displays a message indicating that the system is calculating priorities.
-    4. Priority Output: Shows the calculated project priority, for example:
-        "Project Priority: High"
-    5. Criteria Details: Explains how each criterion contributes to the final priority.
+1. **Clone:** Clone this repository to your computer.
+2. **Install Python:** Make sure you have Python 3.9 or above installed on your system.
+3. **Install the required libraries:** numpy and matplotlib
+5. **Set Your Input Values:** Locate the section of the code where the input values are defined. You will find the following lines (line 99 - 101):
+   ``` python
+   anggaran_input = 95
+   durasi_input = 45
+   pengaruh_input = 80
+   ```
+6. **View the Output:** The script will print the fuzzified values for budget, duration, and impact, as well as the inferred fuzzy output for project priority. It will also display a graph of the fuzzy output aggregation and print the defuzzified priority value.
+
